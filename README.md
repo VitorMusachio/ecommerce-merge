@@ -5,12 +5,12 @@
 
 - Desafio: entender a estrutura do JSON, criar um script python para aplicar dinamicamente as regras contidas no campo `ds_rule` no arquivo `rules.txt` e retornar um novo arquivo `.csv` contendo os campos necessários, conforme exemplo amostral abaixo:
 
-| order_date |  order_id |  id_rule |  nm_rule |
-| :---: | :---: | :---: | :---: |
-| 2023-03-18T14:13:55+00:00 | 563365 | 3 | women_weekend |
-| 2023-03-21T05:26:53+00:00 | 566979 | 4 | women_week |
-| 2023-03-12T14:26:53+00:00 | 555248 | 1 | men_weekend |
-| 2023-03-17T04:13:26+00:00 | 561472 | 2 | men_week |
+  | order_date |  order_id |  id_rule |  nm_rule |
+  | :---: | :---: | :---: | :---: |
+  | 2023-03-18T14:13:55+00:00 | 563365 | 3 | women_weekend |
+  | 2023-03-21T05:26:53+00:00 | 566979 | 4 | women_week |
+  | 2023-03-12T14:26:53+00:00 | 555248 | 1 | men_weekend |
+  | 2023-03-17T04:13:26+00:00 | 561472 | 2 | men_week |
 
 ## Orientações
 
