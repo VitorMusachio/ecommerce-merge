@@ -16,6 +16,6 @@
 
 - Realizar a instalação das dependências através do comando `pip install -r requirements.txt`.
 
-- O script `main.py` realiza toda a transformação necessária para criação do arquivo final. A análise exploratória para desenvolvimento do script pode ser visualizada através do notebook `ecommerce_merge_eda.ipynb`.
+- O script `merge-data.py` realiza toda a transformação necessária para criação do arquivo final.
 
 - O resultado final da transformação dos dados está armazenado no arquivo `ecommerce_dataframe_with_rules.csv`.

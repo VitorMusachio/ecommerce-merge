@@ -1,7 +1,7 @@
-def main():
-    import pandas as pd
-    import json
+import pandas as pd
+import json
 
+def merge_data():
     # abrindo o arquivo json do ecommerce
     with open(r'ecommerce.json') as json_file:
         data = json.load(json_file)
@@ -59,8 +59,8 @@ def main():
                     'nm_rule']].sort_index()
 
     # exportando o dataframe final para .csv
-    df.to_csv('ecommerce_with_rules', 
+    df.to_csv('ecommerce_with_rules.csv', 
               sep=',',
               index=False)
 
-main()
+merge_data()
